@@ -1,0 +1,13 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:Dommunity.Desktop.ViewModels;assembly=Dommunity.Desktop"
+        Icon="resm:Dommunity.Desktop.Assets.avalonia-logo.ico"
+        Title="Dommunity.Desktop">
+
+  <Design.DataContext>
+    <vm:MainWindowViewModel/>
+  </Design.DataContext>
+  
+  <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>    
+  
+</Window>
